@@ -10,17 +10,12 @@ namespace EmployeePayroll
     {
         static void Main(string[] args)
         {
-            Random rnd = new Random();
-            int attendance = rnd.Next(0,2);
-            if (attendance == 0)
-            {
-                Console.WriteLine("Present");
-            }
-            else
-            {
-                Console.WriteLine("Absent");
-            }
+            int wage_per_hour = 20;
+            int full_day = 8;
+            int wage_per_day = wage_per_hour * full_day;
+            Console.WriteLine(wage_per_day);
             Console.ReadLine();
+
         }
     }
 }
