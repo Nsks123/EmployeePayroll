@@ -1,0 +1,7 @@
+C:\Users\hp\Desktop\LocoBuzz\Training\EmployeePayroll\bin\Debug\EmployeePayroll.exe.config
+C:\Users\hp\Desktop\LocoBuzz\Training\EmployeePayroll\bin\Debug\EmployeePayroll.exe
+C:\Users\hp\Desktop\LocoBuzz\Training\EmployeePayroll\bin\Debug\EmployeePayroll.pdb
+C:\Users\hp\Desktop\LocoBuzz\Training\EmployeePayroll\obj\Debug\EmployeePayroll.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\EmployeePayroll\obj\Debug\EmployeePayroll.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\LocoBuzz\Training\EmployeePayroll\obj\Debug\EmployeePayroll.exe
+C:\Users\hp\Desktop\LocoBuzz\Training\EmployeePayroll\obj\Debug\EmployeePayroll.pdb
