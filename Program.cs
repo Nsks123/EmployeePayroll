@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EmployeePayroll
 {
@@ -10,12 +6,33 @@ namespace EmployeePayroll
     {
         static void Main(string[] args)
         {
-            int wage_per_hour = 20;
-            int Part_Time = 4;
-            int wage_per_day = wage_per_hour * Part_Time;
-            Console.WriteLine(wage_per_day);
-            Console.ReadLine();
+            Random rnd = new Random();
 
+            while (true) 
+            {
+                int attendance = rnd.Next(0, 2);
+
+                if (attendance == 0)
+                {
+                    Console.WriteLine("Present");
+
+                    int wagePerHour = 20;
+                    int fullDay = 8;
+                    int wagePerDay = wagePerHour * fullDay;
+                    Console.WriteLine($"Wage for a full day: {wagePerDay}");
+                }
+                else
+                {
+                    Console.WriteLine("Absent");
+
+                    int wagePerHour = 20;
+                    int partTime = 4;
+                    int wagePerDay = wagePerHour * partTime;
+                    Console.WriteLine($"Wage for part-time: {wagePerDay}");
+                }
+
+                Console.ReadLine();
+            }
         }
     }
 }
