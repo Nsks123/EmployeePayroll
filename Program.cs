@@ -11,8 +11,8 @@ namespace EmployeePayroll
         static void Main(string[] args)
         {
             int wage_per_hour = 20;
-            int full_day = 8;
-            int wage_per_day = wage_per_hour * full_day;
+            int Part_Time = 4;
+            int wage_per_day = wage_per_hour * Part_Time;
             Console.WriteLine(wage_per_day);
             Console.ReadLine();
 
